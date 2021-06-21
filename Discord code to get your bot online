@@ -10,7 +10,7 @@ async def on_message(message):
         return
     if message.content.startswith("hello"):
 
-        if str(message.author) == "elytra.f#3331":  # make sure to change to your user name with hash code
+        if str(message.author) == "elytra.f#3331": 
             await message.channel.send("Hello " + str(message.author) + "!")
         else:
             await message.channel.send("Hello, I am a test bot.") #this can e whatever you want to put for the hello i am a testing bot
